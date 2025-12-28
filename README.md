@@ -5,10 +5,13 @@ Track recurring statement credits in your Tiller-powered Google Sheets. Automati
 ## What It Does
 
 - **Automatic Detection**: Matches transaction descriptions to identify when credits post
-- **Period Tracking**: Handles Monthly, Quarterly, Semi-Annual, and Annual reset schedules
-- **Calendar & Anniversary**: Supports both calendar-year and account-anniversary based resets
+- **Period Tracking**: Handles Monthly, Quarterly, Semi-Annual, and Annual (both calendar year and anniversary year) reset schedules
 - **Expiring Soon Alerts**: Highlights credits nearing their reset date with remaining value
-- **YTD Summary**: See total captured vs. available across all accounts
+
+## Requirements
+This is meant to work with financial tracking spreadhseets built with **[Tiller](https://tiller.com/)**.
+
+If you're not already using Tiller, it automatically pulls all your financial transaction data into a Google Sheet (and provides you the templates) so you get all the functionality of Mint/Personal Capital/etc, but in a sheet owned and controlled by you. I can't recommend it enough.
 
 ## Screenshots
 
