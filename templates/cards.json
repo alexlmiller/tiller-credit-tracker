@@ -1,0 +1,112 @@
+{
+  "version": "1.2.0",
+  "lastUpdated": "2025-12-28",
+  "cards": [
+    {
+      "name": "Amex Platinum",
+      "issuer": "American Express",
+      "annualFee": 895,
+      "credits": [
+        { "name": "Digital Entertainment", "amount": 25, "frequency": "Monthly", "reset": "Calendar", "pattern": "Platinum Digital Entertainment Credit" },
+        { "name": "Walmart+", "amount": 12.95, "frequency": "Monthly", "reset": "Calendar", "pattern": "Platinum Walmart+ Credit" },
+        { "name": "Uber One", "amount": 10, "frequency": "Monthly", "reset": "Calendar", "pattern": "Platinum Uber One Credit" },
+        { "name": "Resy Dining", "amount": 100, "frequency": "Quarterly", "reset": "Calendar", "pattern": "Platinum Resy Credit" },
+        { "name": "Lululemon", "amount": 75, "frequency": "Quarterly", "reset": "Calendar", "pattern": "Platinum Lululemon Credit" },
+        { "name": "Saks Fifth Avenue", "amount": 50, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "Platinum Saks Credit" },
+        { "name": "Hotel Credit", "amount": 300, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "Platinum Hotel Credit" },
+        { "name": "Airline Incidental", "amount": 200, "frequency": "Annual", "reset": "Calendar", "pattern": "Airline Fee Reimbursement" },
+        { "name": "CLEAR Plus", "amount": 209, "frequency": "Annual", "reset": "Calendar", "pattern": "Clear Plus Credit" },
+        { "name": "Equinox", "amount": 300, "frequency": "Annual", "reset": "Calendar", "pattern": "Platinum Equinox Credit" },
+        { "name": "Oura Ring", "amount": 200, "frequency": "Annual", "reset": "Calendar", "pattern": "Platinum Oura Credit" }
+      ]
+    },
+    {
+      "name": "Amex Business Platinum",
+      "issuer": "American Express",
+      "annualFee": 895,
+      "credits": [
+        { "name": "Wireless", "amount": 10, "frequency": "Monthly", "reset": "Calendar", "pattern": "Business Platinum Wireless Credit" },
+        { "name": "Indeed", "amount": 90, "frequency": "Quarterly", "reset": "Calendar", "pattern": "Business Platinum Indeed Credit" },
+        { "name": "Hilton", "amount": 50, "frequency": "Quarterly", "reset": "Calendar", "pattern": "Business Platinum Hilton Credit" },
+        { "name": "Hotel Credit", "amount": 300, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "Business Platinum Hotel Credit" },
+        { "name": "Dell", "amount": 150, "frequency": "Annual", "reset": "Calendar", "pattern": "Business Platinum Dell Credit" },
+        { "name": "Adobe", "amount": 250, "frequency": "Annual", "reset": "Calendar", "pattern": "Business Platinum Adobe Credit" },
+        { "name": "CLEAR Plus", "amount": 209, "frequency": "Annual", "reset": "Calendar", "pattern": "Clear Plus Credit" },
+        { "name": "Airline Incidental", "amount": 200, "frequency": "Annual", "reset": "Calendar", "pattern": "Airline Fee Reimbursement" },
+        { "name": "Amex Travel Flight", "amount": 1200, "frequency": "Annual", "reset": "Calendar", "pattern": "Business Platinum Amex Travel Credit" },
+        { "name": "One AP", "amount": 2400, "frequency": "Annual", "reset": "Calendar", "pattern": "Business Platinum One AP Credit" }
+      ]
+    },
+    {
+      "name": "Chase Sapphire Reserve",
+      "issuer": "Chase",
+      "annualFee": 795,
+      "credits": [
+        { "name": "Lyft", "amount": 10, "frequency": "Monthly", "reset": "Calendar", "pattern": "Lyft Credit" },
+        { "name": "Peloton", "amount": 10, "frequency": "Monthly", "reset": "Calendar", "pattern": "Peloton Credit" },
+        { "name": "Exclusive Tables", "amount": 150, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "Exclusive Tables Credit" },
+        { "name": "StubHub", "amount": 150, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "StubHub Credit" },
+        { "name": "The Edit Hotels", "amount": 250, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "The Edit Credit" },
+        { "name": "Travel Credit", "amount": 300, "frequency": "Annual", "reset": "Anniversary", "pattern": "Sapphire Travel Credit" }
+      ]
+    },
+    {
+      "name": "Chase United Club",
+      "issuer": "Chase",
+      "annualFee": 695,
+      "credits": [
+        { "name": "Rideshare", "amount": 12, "frequency": "Monthly", "reset": "Calendar", "pattern": "Rideshare Credit" },
+        { "name": "Instacart", "amount": 20, "frequency": "Monthly", "reset": "Calendar", "pattern": "Instacart Credit" },
+        { "name": "Renowned Hotels", "amount": 200, "frequency": "Annual", "reset": "Anniversary", "pattern": "Renowned Hotels Credit" },
+        { "name": "JSX Flights", "amount": 200, "frequency": "Annual", "reset": "Anniversary", "pattern": "JSX Credit" }
+      ]
+    },
+    {
+      "name": "Delta Reserve",
+      "issuer": "American Express",
+      "annualFee": 650,
+      "credits": [
+        { "name": "Resy Dining", "amount": 20, "frequency": "Monthly", "reset": "Calendar", "pattern": "Delta Resy Credit" },
+        { "name": "Rideshare", "amount": 10, "frequency": "Monthly", "reset": "Calendar", "pattern": "Delta Rideshare Credit" },
+        { "name": "Delta Stays", "amount": 200, "frequency": "Annual", "reset": "Calendar", "pattern": "Delta Stays Credit" }
+      ]
+    },
+    {
+      "name": "Marriott Bonvoy Brilliant",
+      "issuer": "American Express",
+      "annualFee": 650,
+      "credits": [
+        { "name": "Dining", "amount": 25, "frequency": "Monthly", "reset": "Calendar", "pattern": "Brilliant Dining Credit" }
+      ]
+    },
+    {
+      "name": "Citi Strata Elite",
+      "issuer": "Citi",
+      "annualFee": 595,
+      "credits": [
+        { "name": "Blacklane", "amount": 100, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "Strata Blacklane Credit" },
+        { "name": "Splurge", "amount": 100, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "Strata Splurge Credit" }
+      ]
+    },
+    {
+      "name": "Hilton Aspire",
+      "issuer": "American Express",
+      "annualFee": 550,
+      "credits": [
+        { "name": "Flight Credit", "amount": 50, "frequency": "Quarterly", "reset": "Calendar", "pattern": "Aspire Flight Credit" },
+        { "name": "Resort Credit", "amount": 200, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "Hilton Resort Credit" },
+        { "name": "CLEAR Plus", "amount": 209, "frequency": "Annual", "reset": "Calendar", "pattern": "Clear Plus Credit" }
+      ]
+    },
+    {
+      "name": "Amex Gold",
+      "issuer": "American Express",
+      "annualFee": 325,
+      "credits": [
+        { "name": "Dining Credit", "amount": 10, "frequency": "Monthly", "reset": "Calendar", "pattern": "Gold Dining Credit" },
+        { "name": "Dunkin", "amount": 7, "frequency": "Monthly", "reset": "Calendar", "pattern": "Gold Dunkin Credit" },
+        { "name": "Resy", "amount": 50, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "Gold Resy Credit" }
+      ]
+    }
+  ]
+}
