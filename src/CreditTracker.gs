@@ -698,11 +698,11 @@ function setupCalculations(sheet) {
     // AF: Track (column H in config)
     sheet.getRange(`AF${row}`).setFormula(`=IF('Credits Config'!B${configRow}="",FALSE,'Credits Config'!H${configRow})`);
 
-    // AG: Rank within card by PctUsed ascending (for sorting in display)
+    // AG: Rank within card for display sorting
+    // Sort order: Next expiration (soonest first) > PctUsed (ascending) > Alphabetical
     // Only ranks tracked credits, untracked get blank
-    // Uses credit name as tiebreaker when PctUsed is equal (e.g., multiple 0% credits)
     sheet.getRange(`AG${row}`).setFormula(
-      `=IF(OR(R${row}="",AF${row}=FALSE),"",SUMPRODUCT(($S$2:$S$21=S${row})*($AF$2:$AF$21=TRUE)*($R$2:$R$21<>"")*((AA$2:AA$21<AA${row})+((AA$2:AA$21=AA${row})*(R$2:R$21<R${row}))))+1)`
+      `=IF(OR(R${row}="",AF${row}=FALSE),"",SUMPRODUCT(($S$2:$S$21=S${row})*($AF$2:$AF$21=TRUE)*($R$2:$R$21<>"")*((W$2:W$21<W${row})+((W$2:W$21=W${row})*(AA$2:AA$21<AA${row}))+((W$2:W$21=W${row})*(AA$2:AA$21=AA${row})*(R$2:R$21<R${row}))))+1)`
     );
   }
 
