@@ -72,7 +72,7 @@ Click **Credit Tracker > Refresh Dashboard** to update the tracker with your con
 
 | Card | Annual Fee | Credits |
 |------|-----------|---------|
-| Amex Platinum | $895 | 11 credits (~$2,884/yr) |
+| Amex Platinum | $895 | 10 credits (~$2,784/yr) |
 | Amex Business Platinum | $895 | 10 credits (~$5,689/yr)* |
 | Chase Sapphire Reserve | $795 | 6 credits (~$1,200/yr) |
 | Chase United Club | $695 | 4 credits (~$800/yr) |

@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "lastUpdated": "2025-12-28",
+  "version": "1.2.1",
+  "lastUpdated": "2026-04-25",
   "cards": [
     {
       "name": "Amex Platinum",
@@ -12,7 +12,6 @@
         { "name": "Uber One", "amount": 10, "frequency": "Monthly", "reset": "Calendar", "pattern": "Platinum Uber One Credit" },
         { "name": "Resy Dining", "amount": 100, "frequency": "Quarterly", "reset": "Calendar", "pattern": "Platinum Resy Credit" },
         { "name": "Lululemon", "amount": 75, "frequency": "Quarterly", "reset": "Calendar", "pattern": "Platinum Lululemon Credit" },
-        { "name": "Saks Fifth Avenue", "amount": 50, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "Platinum Saks Credit" },
         { "name": "Hotel Credit", "amount": 300, "frequency": "SemiAnnual", "reset": "Calendar", "pattern": "Platinum Hotel Credit" },
         { "name": "Airline Incidental", "amount": 200, "frequency": "Annual", "reset": "Calendar", "pattern": "Airline Fee Reimbursement" },
         { "name": "CLEAR Plus", "amount": 209, "frequency": "Annual", "reset": "Calendar", "pattern": "Clear Plus Credit" },
