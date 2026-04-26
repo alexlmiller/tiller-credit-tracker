@@ -11,9 +11,7 @@
 // ============================================================================
 
 const CONFIG = {
-  // Using public Gist for now; switch to repo URL when public:
-  // templateUrl: 'https://raw.githubusercontent.com/alexlmiller/credit-card-tracker/main/templates/cards.json',
-  templateUrl: 'https://gist.githubusercontent.com/alexlmiller/2dec55a2f8dca6abaeee1a2ab545a5cc/raw/cards.json',
+  templateUrl: 'https://raw.githubusercontent.com/alexlmiller/tiller-credit-tracker/main/templates/cards.json',
   // Default Tiller column mappings (can be overridden in Credits Config Settings)
   tiller: {
     dateColumn: 'B',
